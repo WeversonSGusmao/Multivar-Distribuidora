@@ -23,7 +23,7 @@ body{
         padding: 10px 40px;
         font-size: 18px;
         font-weight: 600;
-        background-color: #00ff08;
+        background-color: #01c57aea;
         border: 0;
         border-radius: 30px;
         cursor: pointer;
@@ -37,11 +37,12 @@ h2.titulo{
 }
 
 h2.titulo span{
-    color: #00ff08;
+    color: #01c57aea;
 }
 
+
 button:hover, form .btn-enviar:hover{
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #01c57aea;
     transform: scale (1.05);
     color: #fff;
 }
@@ -86,7 +87,7 @@ header nav.menu-desktop ul li{
 }
 
 .btn-abrir-menu i{
-    color: #00ff08;
+    color: #01c57aea;
     font-size: 40px;
 }
 
@@ -116,7 +117,7 @@ header nav.menu-desktop ul li{
 }
 
 .menu-mobile .btn-fechar i{
-    color: #00ff08;
+    color: #01c57aea;
     font-size: 30px;
 }
 
@@ -132,7 +133,7 @@ header nav.menu-desktop ul li{
 }
 
 .menu-mobile nav ul li a:hover{
-    background-color: #00ff08;
+    background-color: #01c57aea;
     color: #000;
 }
 
@@ -149,9 +150,11 @@ header nav.menu-desktop ul li{
 
 /*ESTILO DO TOPO DO SITE  */
 
-section.topo-do-site{
-    padding: 40px 4%;
+section.topo-do-site .btn-contato{
+    padding: 5px 25%;
+    
 }
+
 
 section.topo-do-site .flex{
     align-items: center;
@@ -160,7 +163,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site h1{
-    color: #00ff08;
+    color: #01c57aea;
     font-size: 42px;
 }
 
@@ -172,7 +175,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-site h2 span{
-    color: #00ff08;
+    color: #e7ff0dea;
 }
  .topo-do-site .txt-topo-site p{
      color: #fff;
@@ -199,6 +202,17 @@ section.especialidades{
     padding: 40px 4%;
 }
 
+.especialidades h3{
+    padding: 40px;
+    gap: 40px;
+    text-align: center;
+    color: #ffffffea;
+}
+
+h3 span{
+    color: #ffff78;
+}
+
 section.especialidades .flex{
     gap: 60px;
 }
@@ -218,7 +232,7 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: #00ff08;
+    color: #01c57aea;
 }
 
 .especialidades .especialidades p{
@@ -252,7 +266,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span{
-    color: #00ff08;
+    color: #01c57aea;
     display: block;
 }
 
@@ -266,7 +280,7 @@ width: 60px;
 height: 60px;
 border-radius: 50%;
 border: none;
-background-color: #00ff08;
+background-color: #01c57aea;
 font-size: 22px;
 cursor: pointer;
 margin: 0 5px;
@@ -277,8 +291,10 @@ transition: .2s;
 
 section.portfolio{
  padding: 80px 4%;
- box-shadow: 0 0 40px 10px #ffffff67;
+ /*box-shadow: 0 0 40px 10px #ffffff67;*/
+ gap: 40px;
 }
+
 
 section.portfolio .flex{
     justify-content: space-around;
@@ -358,7 +374,7 @@ form .btn-enviar{
 
 form .btn-enviar input{
     width: 120px;
-    background-color: #00ff08;
+    background-color: #01c57aea;
     color: #000;
     font-wight: 700px;
     cursor: pointer;
@@ -366,7 +382,7 @@ form .btn-enviar input{
 }
 
  form input::placeholder{
-    color: #00ff00;
+    color: #01c57aea;
 } 
 
 /* Estilo do footer*/
@@ -384,10 +400,10 @@ footer .line-footer{
 }
 
 .border{
-    border-top: 2px solid #00ff00;
+    border-top: 2px solid #01c57aea;
 }
 footer .line-footer p i{
-    color: #00ff00;
+    color: #01c57aea;
     font-size: 22px;
 }
 
