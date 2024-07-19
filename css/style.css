@@ -407,6 +407,11 @@ footer .line-footer p i{
     font-size: 22px;
 }
 
+footer .line-footer p{
+    color: #fff;
+    text-align: center;
+}
+
 footer .line-footer p a{
     color: #fff;
 }
