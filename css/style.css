@@ -32,7 +32,7 @@ body{
 }
 
 h2.titulo{
-    color: #00C;
+    color: #fa0;
     font-size: 38px;
     text-align: center;
 }
@@ -61,14 +61,14 @@ header > .interface{
 }
 
 header a{
-    color: #5C5C5C;
+    color: #000;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
 header nav.menu-desktop a:hover{
-    color: #fff;
+    color: #5C5C5C;
     transform: scale(1.05);
 }
 
@@ -274,6 +274,7 @@ section.sobre .flex{
 .sobre .txt-sobre p{
     margin: 20px 0;
     text-align: justify;
+    color: #000;
 }
 
 .btn-social button{
