@@ -54,6 +54,12 @@ header{
     padding: 40px 4%;
 }
 
+header.logo{
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+}
+
 header > .interface{
     display: flex;
     align-items: center;
