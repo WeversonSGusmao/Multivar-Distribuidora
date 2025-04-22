@@ -57,13 +57,14 @@ header{
 header.interface{
     width: 200px;
     height: auto;
-    border-radius: 12px;
+    
 }
 
 header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 50%;
 }
 
 header a{
