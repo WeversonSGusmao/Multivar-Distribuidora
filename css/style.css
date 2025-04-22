@@ -54,7 +54,7 @@ header{
     padding: 40px 4%;
 }
 
-header.logo{
+header.interface.logo{
     width: 200px;
     height: auto;
     border-radius: 12px;
